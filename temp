@@ -1,0 +1,3 @@
+scp -i ssh-key-2025-02-22.key -r ../repos/thehappinessguerrilla ubuntu@130.61.181.103:/home/ubuntu/
+tmux new -s happiness-bot
+python3 thehappinessguerrilla/gecombineerde_bot.py
